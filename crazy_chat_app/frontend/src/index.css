@@ -1,0 +1,287 @@
+.create {
+  font-family: Aleo;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.create h2 {
+  margin-bottom: 20px;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: block;
+}
+
+.join-room{
+  font-family: Aleo;
+  box-sizing: 100%;
+  margin: 0.5%;
+  margin-top: 10%;
+}
+
+.join-room label {
+  text-align: left;
+  display: block;
+}
+
+.join-room input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: block;
+}
+
+.btn {
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+
+.room-card p{
+  font-size: 20px;
+  padding: 5px;
+  width: 200px;
+  display: inline;
+}
+.room-card{
+  margin: 5px;
+  display: inline;
+}
+
+.room-card :hover {
+  background-color: rgba(241, 241, 241, 0.816);
+  padding: 2px;
+  cursor: pointer;
+}
+
+.msg-area{
+  margin: 1%;
+  height: 85vh;
+  overflow: auto;
+}
+
+.msg-input-area{
+  margin: 5px;
+  height: 5vh;
+}
+
+.custom-button{
+  display: inline;
+  height: auto;
+  border-radius: 2cm !important;
+  margin-top: 5px;
+}
+
+/* trial's */
+
+.media-chat {
+  padding-right: 64px;
+  margin-bottom: 0
+}
+
+.media {
+  padding: 16px 12px;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear
+}
+
+.media .avatar {
+  flex-shrink: 0
+}
+
+.avatar {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #f5f6f7;
+  color: #8b95a5;
+  text-transform: uppercase
+}
+
+.media-chat .media-body {
+  -webkit-box-flex: initial;
+  flex: initial;
+  display: table
+}
+
+.media-body {
+  min-width: 0
+}
+
+.media-chat .media-body p {
+  position: relative;
+  padding: 6px 8px;
+  margin: 4px 0;
+  background-color: #f5f6f7;
+  border-radius: 3px;
+  font-weight: 100;
+  color: #2c2a2a
+}
+
+.media>* {
+  margin: 0 0px
+}
+
+.media-para{
+  float: right;
+}
+
+.media-chat .media-body p.meta {
+  background-color: transparent !important;
+  padding: 0;
+  opacity: .8
+}
+
+.media-meta-day {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  color: #8b95a5;
+  opacity: .8;
+  font-weight: 400
+}
+
+.media {
+  padding: 16px 12px;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear
+}
+
+.media-meta-day::before {
+  margin-right: 16px
+}
+
+.media-meta-day::before,
+.media-meta-day::after {
+  content: '';
+  -webkit-box-flex: 1;
+  flex: 1 1;
+  border-top: 1px solid #ebebeb
+}
+
+.media-meta-day::after {
+  content: '';
+  -webkit-box-flex: 1;
+  flex: 1 1;
+  border-top: 1px solid #ebebeb
+}
+
+.media-meta-day::after {
+  margin-left: 16px
+}
+
+.media-chat.media-chat-reverse {
+  padding-right: 12px;
+  padding-left: 64px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-direction: row-reverse
+}
+
+.media-chat {
+  padding-right: 64px;
+  margin-bottom: 0
+}
+
+.media {
+  padding: 5px 5px;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear
+}
+
+.media-chat.media-chat-reverse .media-body p {
+  float: right;
+  clear: right;
+  background-color: #48b0f7;
+  color: #fff
+}
+
+.media-chat .media-body p {
+  position: relative;
+  padding: 6px 8px;
+  margin: 4px 0;
+  background-color: #f5f6f7;
+  border-radius: 3px
+}
+
+/* text input */
+.border-light {
+  border-color: #f1f2f3 !important
+}
+
+.bt-1 {
+  border-top: 1px solid #ebebeb !important
+}
+
+.publisher {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 12px 20px;
+  /* background-color: #d9d9d9 */
+}
+
+.publisher>*:first-child {
+  margin-left: 0
+}
+
+.publisher>* {
+  margin: 0 8px
+}
+
+.publisher-input {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  border: none;
+  outline: none !important;
+  background-color: transparent
+}
+
+
+
+.publisher-btn {
+  background-color: transparent;
+  border: none;
+  color: #8b95a5;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: -moz-hidden-unscrollable;
+  -webkit-transition: .2s linear;
+  transition: .2s linear
+}
+
+
+
+.publisher-btn {
+  background-color: transparent;
+  border: none;
+  color: #cac7c7;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: -moz-hidden-unscrollable;
+  -webkit-transition: .2s linear;
+  transition: .2s linear
+}
+
+
