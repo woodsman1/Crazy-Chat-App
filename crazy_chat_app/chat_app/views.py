@@ -15,21 +15,6 @@ from .serializers import *
 from .signals import get_refresh_token
 
 
-# xxxxxxxxxx temperory views xxxxxxxxxxxxxxxxxxxxxxxxxxx
-def index(request):
-    return render(request, 'frontend/index.html')
-
-
-
-
-def room(request, room_name):
-    return render(request, 'chat_app/room.html', {
-        'room_name': room_name,
-        'username': request.user,
-    })
-
-# xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
 
 class UsersDetailView(APIView):
     permission_classes = (IsAuthenticated,)
@@ -148,8 +133,6 @@ class ChatRoomDetailsApi(APIView):
         
 
 
-# create in members pass only one int value that is creaters
-# id else will give error
 class GetOrCreateRoomApi(APIView):
 
     permission_classes = (IsAuthenticated,)
